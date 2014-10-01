@@ -59,6 +59,9 @@ var SimpleModuleGenerator = yeoman.generators.Base.extend({
       this.keywords = props.keywords;
       this.githubName = props.githubName;
       this.author = props.author;
+      this.dequote = function(str) {
+        return str.replace(/\"/gm, '\\"');
+      };
 
       done();
     }.bind(this));
@@ -67,7 +70,7 @@ var SimpleModuleGenerator = yeoman.generators.Base.extend({
   writing: {
     app: function() {
       this.src.copy('index.js', 'index.js');
-      this.src.copy('test.js', 'test.js');
+      this.template('test.js', 'test.js');
       this.template('_package.json', 'package.json');
     },
 

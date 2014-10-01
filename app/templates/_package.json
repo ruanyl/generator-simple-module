@@ -11,7 +11,7 @@
     "url": "https://github.com/<%= githubName %>/<%= moduleName %>"
   },
   "keywords": <%= JSON.stringify(keywords) %> ,
-  "author": "<%= author %>",
+  "author": "<%= dequote(author) %>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/<%= githubName %>/<%= moduleName %>/issues"
