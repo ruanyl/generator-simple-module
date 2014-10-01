@@ -1,4 +1,4 @@
-# generator-simple-module [![Build Status](https://secure.travis-ci.org/ruanyl/generator-simple-module.png?branch=master)](https://travis-ci.org/ruanyl/generator-simple-module)
+# generator-simple-module
 
 > [Yeoman](http://yeoman.io) generator
 
