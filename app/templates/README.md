@@ -1,5 +1,8 @@
-<%= moduleName %> [![build status](https://secure.travis-ci.org/<%= githubName %>/<%= moduleName %>.png)](http://travis-ci.org/<%= githubName %>/<%= moduleName %>)
+<%= moduleName %>
 ========
+[![build status](https://secure.travis-ci.org/<%= githubName %>/<%= moduleName %>.svg)](http://travis-ci.org/<%= githubName %>/<%= moduleName %>)
+[![NPM version](https://badge.fury.io/js/<%= moduleName %>.svg)](http://badge.fury.io/js/<%= moduleName %>)
+
 <%= moduleDesc %>
 
 ## Installation
