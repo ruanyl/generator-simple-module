@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/<%= githubName %>/<%= moduleName %>",
   "dependencies": {
-    "ava": "0.0.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
 }
